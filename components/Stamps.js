@@ -16,8 +16,31 @@ function Stamps() {
           flexDirection: "column",
           placeContent: "center",
           placeItems: "center",
+          position: "relative",
         }}
       >
+        <div
+          style={{
+            width: "64px",
+            height: "64px",
+            backgroundColor: "#1355FF",
+            position: "absolute",
+            top: 0,
+            left: "350px",
+          }}
+        />
+
+        <div
+          style={{
+            width: "32px",
+            height: "32px",
+            backgroundColor: "#B9ECFF",
+            position: "absolute",
+            top: "64px",
+            left: "320px",
+          }}
+        />
+
         <Image src="https://i.ibb.co/wJg30jy/2.png" width={100} height="50" />
 
         <h1
@@ -78,7 +101,7 @@ function Stamps() {
         <Image
           src="https://i.ibb.co/NCRpsX0/61779b485e784ea1ab62098c-Testimonial-Image-png.png"
           width={352}
-          height="445"
+          height={445}
         />
       </div>
     </div>

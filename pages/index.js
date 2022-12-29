@@ -6,6 +6,8 @@ import Sections from "../components/Sections";
 import Features from "../components/Features";
 import Knowledge from "../components/Knowledge";
 import Stamps from "../components/Stamps";
+import Resources from "../components/Resources";
+import Footer from "../components/Footer";
 
 const Logo = () => {
   return (
@@ -47,7 +49,7 @@ export default function Home() {
                   width="60"
                 />
               </div>
-              <div className="space-x-6">
+              <div className="mobile:hidden laptop:flex space-x-6">
                 <Link href="/">Overview</Link>
                 <Link href="/">Pages</Link>
                 <Link href="/">Template</Link>
@@ -59,8 +61,23 @@ export default function Home() {
                     padding: "10px",
                     color: "white",
                   }}
+                  className="mobile:hidden laptop:flex"
                 >
                   Contact Us
+                </button>
+                <button className="px-2 py-3 laptop:hidden mobile:flex border-2 border-gray-300">
+                  <svg
+                    width="19"
+                    height="12"
+                    viewBox="0 0 19 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.57812 12C1.29479 12 1.05746 11.904 0.866125 11.712C0.674125 11.5207 0.578125 11.2833 0.578125 11C0.578125 10.7167 0.674125 10.4793 0.866125 10.288C1.05746 10.096 1.29479 10 1.57812 10H17.5781C17.8615 10 18.0988 10.096 18.2901 10.288C18.4821 10.4793 18.5781 10.7167 18.5781 11C18.5781 11.2833 18.4821 11.5207 18.2901 11.712C18.0988 11.904 17.8615 12 17.5781 12H1.57812ZM1.57812 7C1.29479 7 1.05746 6.904 0.866125 6.712C0.674125 6.52067 0.578125 6.28333 0.578125 6C0.578125 5.71667 0.674125 5.479 0.866125 5.287C1.05746 5.09567 1.29479 5 1.57812 5H17.5781C17.8615 5 18.0988 5.09567 18.2901 5.287C18.4821 5.479 18.5781 5.71667 18.5781 6C18.5781 6.28333 18.4821 6.52067 18.2901 6.712C18.0988 6.904 17.8615 7 17.5781 7H1.57812ZM1.57812 2C1.29479 2 1.05746 1.90433 0.866125 1.713C0.674125 1.521 0.578125 1.28333 0.578125 1C0.578125 0.716667 0.674125 0.479 0.866125 0.287C1.05746 0.0956668 1.29479 0 1.57812 0H17.5781C17.8615 0 18.0988 0.0956668 18.2901 0.287C18.4821 0.479 18.5781 0.716667 18.5781 1C18.5781 1.28333 18.4821 1.521 18.2901 1.713C18.0988 1.90433 17.8615 2 17.5781 2H1.57812Z"
+                      fill="#1355FF"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
@@ -80,11 +97,12 @@ export default function Home() {
               height: "636.39px",
               width: "529.19px",
               backgroundColor: "#1355FF",
-              position: "absolute",
+
               right: 0,
               top: "120px",
               zIndex: 2,
             }}
+            className="absolute"
           >
             <div id="vectors" className="grid gap-y-10">
               {array.map((_, index) => (
@@ -749,6 +767,8 @@ export default function Home() {
             <Features />
             <Knowledge />
             <Stamps />
+            <Resources />
+            <Footer />
           </div>
         </div>
       </main>
