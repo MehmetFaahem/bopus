@@ -87,8 +87,9 @@ export default function Home() {
             }}
           >
             <div id="vectors" className="grid gap-y-10">
-              {array.map((_) => (
+              {array.map((_, index) => (
                 <div
+                  key={index}
                   style={{
                     height: "3px",
                     width: "3px",
@@ -187,8 +188,8 @@ export default function Home() {
                     lineHeight: "32px",
                   }}
                 >
-                  I felt like I couldn’t grow until I moved to Opus. Now I am
-                  encouraged to sell more with them.
+                  I felt like I couldn&apos;t grow until I moved to Opus. Now I
+                  am encouraged to sell more with them.
                 </h1>
                 <h1
                   style={{
@@ -344,7 +345,7 @@ export default function Home() {
               textAlign: "center",
             }}
           >
-            Trusted and loved by the world’s best teams
+            Trusted and loved by the world&apos;s best teams
           </h1>
           <div className="flex place-content-center mt-10">
             <Image
@@ -557,8 +558,9 @@ export default function Home() {
               }}
             >
               <div id="vectors2" className="grid gap-y-10">
-                {array.map((_) => (
+                {array.map((_, index) => (
                   <div
+                    key={index}
                     style={{
                       height: "3px",
                       width: "3px",

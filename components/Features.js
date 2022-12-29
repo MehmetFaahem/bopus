@@ -43,7 +43,7 @@ function Features() {
             lineHeight: "56px",
           }}
         >
-          You’re not just doing business. You’re doing life.
+          You’re not just doing business. You&apos;re doing life.
         </h1>
 
         <div className="flex flex-col mt-16">
