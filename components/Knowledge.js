@@ -90,7 +90,7 @@ function Knowledge() {
             lineHeight: "56px",
           }}
         >
-          A UI Kit that's Modern & Elegant
+          A UI Kit that&apos;s Modern & Elegant
         </h1>
 
         <p

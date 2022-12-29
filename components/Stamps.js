@@ -30,8 +30,8 @@ function Stamps() {
             marginTop: "56.21px",
           }}
         >
-          The Opus UI Kit lets you showcase your work in style. It's helped take
-          our business online
+          The Opus UI Kit lets you showcase your work in style. It&apos;s helped
+          take our business online
         </h1>
 
         <h1
