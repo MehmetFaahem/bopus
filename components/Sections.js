@@ -166,7 +166,6 @@ function Sections() {
             fontSize: "14px",
             lineHeight: "24px",
             fontWeight: "500",
-            marginBottom: "238px",
           }}
         >
           Learn More

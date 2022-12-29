@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import GetStarted from "../components/GetStarted";
 import Sections from "../components/Sections";
+import Features from "../components/Features";
+import Knowledge from "../components/Knowledge";
+import Stamps from "../components/Stamps";
 
 const Logo = () => {
   return (
@@ -741,6 +744,9 @@ export default function Home() {
             </div>
             <GetStarted />
             <Sections />
+            <Features />
+            <Knowledge />
+            <Stamps />
           </div>
         </div>
       </main>
