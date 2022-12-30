@@ -27,7 +27,7 @@ export default function Home() {
     );
   };
 
-  const array = [...new Array(36)];
+  // const array = [...new Array(36)];
 
   return (
     <div>
@@ -105,7 +105,7 @@ export default function Home() {
             className="absolute"
           >
             <div id="vectors" className="grid gap-y-10">
-              {array.map((_, index) => (
+              {/* {array.map((_, index) => (
                 <div
                   key={index}
                   style={{
@@ -114,7 +114,7 @@ export default function Home() {
                     backgroundColor: "#0133B7",
                   }}
                 />
-              ))}
+              ))} */}
             </div>
             <div
               style={{
@@ -576,7 +576,7 @@ export default function Home() {
               }}
             >
               <div id="vectors2" className="grid gap-y-10">
-                {array.map((_, index) => (
+                {/* {array.map((_, index) => (
                   <div
                     key={index}
                     style={{
@@ -585,7 +585,7 @@ export default function Home() {
                       backgroundColor: "#DADDE7",
                     }}
                   />
-                ))}
+                ))} */}
               </div>
 
               <div
