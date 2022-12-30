@@ -27,7 +27,7 @@ export default function Home() {
     );
   };
 
-  const array = [...Array(36)];
+  const array = [...new Array(36)];
 
   return (
     <div>
