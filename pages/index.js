@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import GetStarted from "../Components/GetStarted";
-import Sections from "../Components/Sections";
-import Features from "../Components/Features";
-import Knowledge from "../Components/Knowledge";
-import Stamps from "../Components/Stamps";
-import Resources from "../Components/Resources";
-import Footer from "../Components/Footer";
+import GetStarted from "../components/GetStarted";
+import Sections from "../components/Sections";
+import Features from "../components/Features";
+import Knowledge from "../components/Knowledge";
+import Stamps from "../components/Stamps";
+import Resources from "../components/Resources";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const Logo = () => {
